@@ -67,7 +67,7 @@ export default {
         this.result = "Hata"; 
         return;
       }
-
+""
       if (operators.includes(value)) {
         this.result += value; 
         return;
