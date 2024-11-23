@@ -49,9 +49,7 @@ export default {
       }
 
       if (value === "." && this.result.includes(".")) return;
-
       if (operators.includes(value) && operators.includes(lastChar)) return;
-
       if (this.result.length >= 14) return;
 
       this.result = this.result === "0" ? value : this.result + value;
