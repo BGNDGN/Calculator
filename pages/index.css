@@ -4,8 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
-  }
-
+}
 
 .Calculator {
     border-radius: 10px;   
@@ -26,14 +25,12 @@ body {
     margin-bottom: 8px;
     font-size: 24px;
     padding: 10px;
-    color: white;
     background-color: rgb(43, 35, 35);
     border: 0px solid #333;
     border-radius: 30px;
     position: relative;
     padding-left: 20px;
 }
-
 
 #buttons {
     display: grid;
@@ -52,14 +49,14 @@ button {
     cursor: pointer;
     border-radius: 50px;
     transition: background-color 0.5s;
-  }
+}
 
-.calculate {
+.operator {
     background-color: rgb(223, 223, 50); 
     font-size: 25px;
-}  
+}
 
-.calculate:hover {
+.operator:hover {
     background-color: rgb(170, 177, 72); 
     color: black;
     transition: 0.3s;
@@ -70,19 +67,19 @@ button {
    color: black;
 }
 
-clear:hover {
+.clear:hover {
    background-color: black;
    color: rgb(180, 173, 173);
 }
 
-.result{
+.equals {
     background-color: rgb(182, 179, 179);
     color: black;
 }
 
-result:hover {
+.equals:hover {
     background-color: black;
-   color: rgb(180, 173, 173);
+    color: rgb(180, 173, 173);
 }
 
 button:hover {
@@ -91,7 +88,7 @@ button:hover {
     transition: 0.3s;
 } 
 
-#Title{
+#Title {
     text-align: right;
     font-size: 27px;
     font-weight: 1000;
@@ -110,6 +107,3 @@ button:hover {
     text-shadow: 3px 3px 5px yellow;
     color: black;
 }
-
-
-  
